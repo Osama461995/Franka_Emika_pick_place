@@ -76,6 +76,7 @@ Once everything is built and dependencies are installed, follow the steps below 
           python3 realsense_image7.py
           
 This script detects objects based on color using the RGB camera and publishes their poses.
+
 1.**Terminal 3 – Run the Pick & Place Program**
         ```bash
         
