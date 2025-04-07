@@ -38,7 +38,7 @@ You can install MoveIt for ROS Noetic by following the official instructions fro
 🔗 Official Link:
 https://moveit.picknik.ai/install/
 
-3. **Add the Project Folder**
+4. **Add the Project Folder**
 After MoveIt has been successfully downloaded into the src folder, copy the folder named moveit_test (which contains our main programs) into the same src directory.
 
 So your folder structure should look like this:
@@ -48,4 +48,10 @@ So your folder structure should look like this:
 ├── moveit_test/
 │   ├── realsense_image7.py
 │   └── pick_place16.cpp
+
+4. **Build the Workspace**
+Now build the entire workspace using catkin:
+  ```bash
+cd ~/ws_moveit
+catkin build moveit_test
 
