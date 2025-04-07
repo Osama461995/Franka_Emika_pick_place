@@ -7,11 +7,10 @@ Follow these steps to push your local changes to the remote Git repository:
 - Open **Command Prompt** and navigate to your project directory:
   ```bash
   cd path\to\your\osama
-README.txt
 
-============================
+
 Pick and Place Sorting System using Franka Emika and ROS
-============================
+
 
 This project uses a Franka Emika robot arm equipped with an RGB camera to detect, pick, and place objects based on their color (red, green, blue, and yellow). The system uses ROS Noetic and MoveIt for motion planning and object manipulation.
 
