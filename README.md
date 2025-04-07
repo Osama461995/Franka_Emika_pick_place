@@ -59,3 +59,13 @@ Steps:
 
     ```bash
             pip install -r requirements.txt
+# Execution Steps
+
+Once everything is built and dependencies are installed, follow the steps below to run the system. You will need to use three terminals.
+1.**Terminal 1 – Launch the Robot Controller**
+   ```bash
+          cd path/to/your/workspace
+          source devel/setup.bash
+
+          roslaunch panda_moveit_config franka_control.launch robot_ip:=172.16.0.2
+
