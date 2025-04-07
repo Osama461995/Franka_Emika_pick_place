@@ -1,15 +1,6 @@
-# Franka_Emika_pick_place
-
-## 📤 How to Push Local Changes Using CMD
-
-Follow these steps to push your local changes to the remote Git repository:
-
-- Open **Command Prompt** and navigate to your project directory:
-  ```bash
-  cd path\to\your\osama
 
 
-## Pick and Place Sorting System using Franka Emika and ROS
+#  Pick and Place Sorting System using Franka Emika and ROS
 
 
 This project uses a Franka Emika robot arm equipped with an RGB camera to detect, pick, and place objects based on their color (red, green, blue, and yellow). The system uses ROS Noetic and MoveIt for motion planning and object manipulation.
@@ -43,6 +34,7 @@ https://moveit.picknik.ai/install/
 After MoveIt has been successfully downloaded into the src folder, copy the folder named moveit_test (which contains our main programs) into the same src directory.
 
 So your folder structure should look like this:
+
     ```bash
               ~/ws_moveit/src/
                ├── moveit
