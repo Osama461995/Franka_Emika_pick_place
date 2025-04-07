@@ -63,20 +63,22 @@ Steps:
 
 Once everything is built and dependencies are installed, follow the steps below to run the system. You will need to use three terminals.
 1.**Terminal 1 – Launch the Robot Controller**
-    ```bash
-          cd path/to/your/workspace
+         ```bash
+         
+           cd path/to/your/workspace
           source devel/setup.bash
-
           roslaunch panda_moveit_config franka_control.launch robot_ip:=172.16.0.2
 
 1.**Terminal 2 – Run the Object Detection Script**
        ```bash
+       
           cd path/to/moveit_test/script
           python3 realsense_image7.py
           
-      This script detects objects based on color using the RGB camera and publishes their poses.
+This script detects objects based on color using the RGB camera and publishes their poses.
 1.**Terminal 3 – Run the Pick & Place Program**
         ```bash
+        
         cd path/to/your/workspace
         source devel/setup.bash
 
