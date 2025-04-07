@@ -44,14 +44,14 @@ After MoveIt has been successfully downloaded into the src folder, copy the fold
 
 So your folder structure should look like this:
     ```bash
-       ~/ws_moveit/src/
-       ├── moveit
-       ├── moveit_test/
-       │   ├── realsense_image7.py
-       │   └── pick_place16.cpp
+              ~/ws_moveit/src/
+               ├── moveit
+               ├── moveit_test/
+                 │   ├── realsense_image7.py
+                  │   └── pick_place16.cpp
 
 5. **Build the Workspace**
-   Now build the entire workspace using catkin:
+Now build the entire workspace using catkin:
    ```bash 
        cd ~/ws_moveit
        catkin build moveit_test
