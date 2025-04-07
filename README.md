@@ -31,3 +31,9 @@ Installation & Setup Steps
    catkin_make
    source devel/setup.bash
 
+3. **Install Moveit for ROS Noetic**
+
+You can install MoveIt for ROS Noetic by following the official instructions from the MoveIt website:
+
+🔗 Official Link:
+https://moveit.picknik.ai/install/
