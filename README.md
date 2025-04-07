@@ -51,5 +51,6 @@ So your folder structure should look like this:
 │   └── pick_place16.cpp
 
 5. **Build the Workspace**
+   ```bash 
 cd ~/ws_moveit
 catkin build moveit_test
