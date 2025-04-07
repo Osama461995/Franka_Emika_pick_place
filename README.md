@@ -52,5 +52,5 @@ So your folder structure should look like this:
 
 5. **Build the Workspace**
    ```bash 
-cd ~/ws_moveit
-catkin build moveit_test
+       cd ~/ws_moveit
+       catkin build moveit_test
