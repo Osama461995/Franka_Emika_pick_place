@@ -44,17 +44,15 @@ So your folder structure should look like this:
                   │   └── pick_place16.cpp
 
 5. **Build the Workspace**
-   
-Now build the entire workspace using catkin:
+   Now build the entire workspace using catkin:
     ```bash 
        cd ~/ws_moveit
        catkin build moveit_test
 7. **Install Python Dependencies**
 Make sure you have all required Python dependencies installed. You can install them using the provided requirements.txt file.
 Steps:
-
-   1- Open a terminal and navigate to the folder where requirements.txt is located.
-   2- Run the following command:
+1- Open a terminal and navigate to the folder where requirements.txt is located.
+2- Run the following command:
 
     ```bash
             pip install -r requirements.txt
