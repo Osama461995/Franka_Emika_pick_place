@@ -48,3 +48,12 @@ Now build the entire workspace using catkin:
    ```bash 
        cd ~/ws_moveit
        catkin build moveit_test
+6. **Install Python Dependencies**
+Make sure you have all required Python dependencies installed. You can install them using the provided requirements.txt file.
+Steps:
+
+Open a terminal and navigate to the folder where requirements.txt is located.
+
+Run the following command:
+    ```bash
+            pip install -r requirements.txt
