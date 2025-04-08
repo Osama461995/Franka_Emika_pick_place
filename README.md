@@ -22,6 +22,7 @@ Installation & Setup Steps
    mkdir -p ~/catkin_ws/src
    cd ~/catkin_ws
    catkin_make
+   
    source devel/setup.bash
 
 4. **Install Moveit for ROS Noetic**
