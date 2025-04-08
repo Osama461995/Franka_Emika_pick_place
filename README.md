@@ -15,6 +15,7 @@ Installation & Setup Steps
    http://wiki.ros.org/noetic/Installation/Ubuntu
 
 2. **Create your own ROS Workspace**
+   
    Open a terminal and create a workspace (you can name it whatever you like, here we use `catkin_ws` as an example):
 
    
@@ -23,7 +24,7 @@ Installation & Setup Steps
    catkin_make
    source devel/setup.bash
 
-3. **Install Moveit for ROS Noetic**
+4. **Install Moveit for ROS Noetic**
 
 You can install MoveIt for ROS Noetic by following the official instructions from the MoveIt website:
 
@@ -37,7 +38,7 @@ After MoveIt has been successfully downloaded into the src folder, copy the fold
 So your folder structure should look like this:
 
     
-              ~/ws_moveit/src/
+              ~/catkin_ws/src/
                ├── moveit
                ├── moveit_test/
                  │   ├── scripts/realsense_image7.py
