@@ -35,6 +35,7 @@ https://moveit.picknik.ai/install/
 
 4. **Add the Project Folder**
 After MoveIt has been successfully downloaded into the src folder, copy the folder named moveit_test (which contains our main programs) into the same src directory.
+note that you have to take the code from zip files for completing tasks.
 
 So your folder structure should look like this:
 
