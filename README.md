@@ -48,7 +48,7 @@ So your folder structure should look like this:
 5. **Build the Workspace**
    Now build the entire workspace using catkin:
     ```bash 
-       cd ~/ws_moveit
+       cd ~/catkin_ws
        catkin build moveit_test
 
 7. **Install Python Dependencies**
