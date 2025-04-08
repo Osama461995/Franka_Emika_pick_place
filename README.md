@@ -17,7 +17,7 @@ Installation & Setup Steps
 2. **Create your own ROS Workspace**
    Open a terminal and create a workspace (you can name it whatever you like, here we use `catkin_ws` as an example):
 
-   ```bash
+   
    mkdir -p ~/catkin_ws/src
    cd ~/catkin_ws
    catkin_make
