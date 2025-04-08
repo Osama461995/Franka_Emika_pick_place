@@ -52,6 +52,7 @@ So your folder structure should look like this:
 7. **Install Python Dependencies**
 Make sure you have all required Python dependencies installed. You can install them using the provided requirements.txt file.
 the list of requirement:
+
 cv_bridge==1.16.2
 
 numpy==1.21.0
@@ -83,6 +84,7 @@ the Steps for installation requirements:
     ```bash
             pip install -r requirements.txt
 # Execution Steps
+before the execution you have to modify the xml launch file( franke_control .launch) which can be found in panda_moveit_config package in order to add Camera link
 
 Once everything is built and dependencies are installed, follow the steps below to run the system. You will need to use three terminals.
 1.**Terminal 1 – Launch the Robot Controller**
