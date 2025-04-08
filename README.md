@@ -89,7 +89,7 @@ Before executing the system, you must **modify the XML launch file** `franka_con
 
 Add the following line **within the `<launch>` tag** of the file:
 
-    ```xml    <node pkg="tf2_ros" type="static_transform_publisher" name="camera_tf_publisher"
+    ```    <node pkg="tf2_ros" type="static_transform_publisher" name="camera_tf_publisher"
                args="0.062225397 -0.062225397 0.033 0 0.785398163 0 panda_link8 camera_link" />
 
 1.**Terminal 1 – Launch the Robot Controller**
