@@ -85,7 +85,10 @@ the Steps for installation requirements:
             pip install -r requirements.txt
 # Execution Steps
 before the execution you have to modify the xml launch file( franke_control .launch) which can be found in panda_moveit_config package in order to add Camera link
-
+            ```bash
+               <node pkg="tf2_ros" type="static_transform_publisher" name="camera_tf_publisher"
+               args="0.062225397 -0.062225397 0.033 0 0.785398163 0 panda_link8 camera_link" />
+      
 Once everything is built and dependencies are installed, follow the steps below to run the system. You will need to use three terminals.
 1.**Terminal 1 – Launch the Robot Controller**
          ```bash
