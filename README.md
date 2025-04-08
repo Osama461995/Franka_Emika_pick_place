@@ -3,7 +3,7 @@
 #  Pick & Place Sorting System using Franka Emika Robot
 
 
-This project uses a Franka Emika robot arm equipped with an RGB camera to detect, pick, and place objects based on their color (red, green, blue, and yellow). The system uses ROS Noetic and MoveIt for motion planning and object manipulation.
+This project uses a Franka Emika robot arm equipped with an RGB camera to detect, pick, and place objects based on their color (red, green, blue). The system uses ROS Noetic and MoveIt for motion planning and object manipulation.
 
 
 ----------------------------
@@ -40,8 +40,8 @@ So your folder structure should look like this:
               ~/ws_moveit/src/
                ├── moveit
                ├── moveit_test/
-                 │   ├── realsense_image7.py
-                  │   └── pick_place16.cpp
+                 │   ├── scripts/realsense_image7.py
+                  │   └── src/pick_place16.cpp
 
 5. **Build the Workspace**
    Now build the entire workspace using catkin:
@@ -51,7 +51,20 @@ So your folder structure should look like this:
 
 7. **Install Python Dependencies**
 Make sure you have all required Python dependencies installed. You can install them using the provided requirements.txt file.
-Steps:
+the list of requirement:
+cv_bridge==1.16.2
+numpy==1.21.0
+opencv_python==4.10.0.84
+pyrealsense2==2.55.1.6486
+rospy==1.17.0
+scikit_learn==1.3.2
+scipy==1.3.3
+sensor_msgs==1.13.1
+tf2_geometry_msgs==0.7.7
+tf2_ros==0.7.7
+ultralytics==8.3.59
+
+the Steps for installation requirements:
 
 1- Open a terminal and navigate to the folder where requirements.txt is located.
 
