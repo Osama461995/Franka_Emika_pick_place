@@ -36,7 +36,7 @@ After MoveIt has been successfully downloaded into the src folder, copy the fold
 
 So your folder structure should look like this:
 
-    ```bash
+    
               ~/ws_moveit/src/
                ├── moveit
                ├── moveit_test/
@@ -81,7 +81,7 @@ the Steps for installation requirements:
 
 2- Run the following command:
 
-    ```bash
+    
             pip install -r requirements.txt
 #  Execution Steps
 
