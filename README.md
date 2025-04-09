@@ -46,8 +46,8 @@ So your folder structure should look like this:
                  │   ├── scripts/realsense_image7.py
                   │   └── src/pick_place16.cpp
 
-5. **Build the Workspace**
-   Now build the entire workspace using catkin:
+5. **Build moveit_test package**
+   Now build moveit_test in your workspace using catkin:
     ```bash 
        cd ~/catkin_ws
        catkin build moveit_test
